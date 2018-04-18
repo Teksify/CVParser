@@ -1,4 +1,4 @@
-package code4goal.antony.resumeparser;
+package com.teksify.df.cvfinder;
 
 import java.util.*;
 import java.io.*;

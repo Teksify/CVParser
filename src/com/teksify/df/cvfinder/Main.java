@@ -1,4 +1,4 @@
-package code4goal.antony.resumeparser;
+package com.teksify.df.cvfinder;
 
 import gate.*;
 import gate.util.GateException;
@@ -20,7 +20,7 @@ import java.util.Iterator;
 
 import static gate.Utils.stringFor;
 
-public class ResumeParserProgram {
+public class Main {
 	private static File parseToHTMLUsingApacheTikka(String file)
 			throws IOException, SAXException, TikaException {
 		// determine extension
@@ -239,9 +239,12 @@ public class ResumeParserProgram {
 					.println("USAGE: java ResumeParser <inputfile> <outputfile>");
 			return;
 		}
+
 		String inputFileName = args[0];
+
 		String outputFileName = (args.length == 2) ? args[1]
 				: "parsed_resume.json";
+
 
 		try {
 			File tikkaConvertedFile = parseToHTMLUsingApacheTikka(inputFileName);

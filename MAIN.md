@@ -27,10 +27,10 @@ Open powershell in windows (run->powershell)
 
 ### Run/Test
 	Run syntax:
-	> java -cp '.\bin\*;..\GATEFiles\lib\*;..\GATEFILES\bin\gate.jar;.\lib\*' code4goal.antony.resumeparser.ResumeParserProgram <input_file> [output_file]
+	> java -cp '.\bin\*;..\GATEFiles\lib\*;..\GATEFILES\bin\gate.jar;.\lib\*' ResumeParserProgram <input_file> [output_file]
 
 	Test:
-	> java -cp '.\bin\*;..\GATEFiles\lib\*;..\GATEFILES\bin\gate.jar;.\lib\*' code4goal.antony.resumeparser.ResumeParserProgram .\UnitTests\AntonyDeepakThomas.pdf antony_thomas.json
+	> java -cp '.\bin\*;..\GATEFiles\lib\*;..\GATEFILES\bin\gate.jar;.\lib\*' ResumeParserProgram .\UnitTests\AntonyDeepakThomas.pdf antony_thomas.json
 
 ## Mac OSX / Linux
 
@@ -43,7 +43,7 @@ Open terminal
 
 ### Run
 ```bash
-java -cp 'bin/*:../GATEFiles/lib/*:../GATEFiles/bin/gate.jar:lib/*' code4goal.antony.resumeparser.ResumeParserProgram <input_file> [output_file]
+java -cp 'bin/*:../GATEFiles/lib/*:../GATEFiles/bin/gate.jar:lib/*' ResumeParserProgram <input_file> [output_file]
 ```
 
 ## Parser Capabilities

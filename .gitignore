@@ -81,3 +81,5 @@ buildNumber.properties
 !/.mvn/wrapper/maven-wrapper.jar
 
 /.idea/
+/parsed_resume.json
+/UnitTests/AntonyDeepakThomas.html
